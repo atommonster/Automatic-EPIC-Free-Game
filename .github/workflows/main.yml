@@ -3,7 +3,7 @@ name: main
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 36 * * *"
+    - cron: "0 38 22 * *"
   push:
     branches: [master]
 
